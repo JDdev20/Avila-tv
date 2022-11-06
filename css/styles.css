@@ -4,7 +4,10 @@
     padding: 0;
 }
 
+
+
 .body{
+
     font-family: url(../assets/fonts/Montserrat-VariableFont_wght.ttf);
     min-height: 100vh;
     background-color: #283046;
@@ -22,6 +25,7 @@
 }
 
 .inicio{
+    display: grid;
     display: flex;
     margin: auto;
     align-items: center;
@@ -54,7 +58,11 @@
     align-self: center;
     justify-content: center;
     align-items: center;
+
+    width: 200px;
+
     width: 150px;
+
     margin: auto;
     margin-bottom: 15px;
 }
@@ -70,6 +78,7 @@
     border-radius: 15px;
     color: #1a1a1a;
 }
+
 
 .inicio .barraLogo .links{
     text-decoration: none;

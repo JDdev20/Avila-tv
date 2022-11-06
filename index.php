@@ -1,4 +1,5 @@
 
+
 <!--Incluyebdo el HEADER-->
 <?php include('includes/header.php'); ?>
 <div class="body">
@@ -16,3 +17,4 @@
     
     <!--Incluyebdo el FOOTER-->
 <?php include('includes/footer.php'); ?>
+
