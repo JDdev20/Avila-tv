@@ -26,7 +26,6 @@
 
 .inicio{
     display: grid;
-    display: flex;
     margin: auto;
     align-items: center;
     text-align: center;
@@ -50,6 +49,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: 50px;
 
 }
 
@@ -58,11 +58,7 @@
     align-self: center;
     justify-content: center;
     align-items: center;
-
     width: 200px;
-
-    width: 150px;
-
     margin: auto;
     margin-bottom: 15px;
 }
@@ -80,18 +76,17 @@
 }
 
 
-.inicio .barraLogo .links{
-    text-decoration: none;
-    display: block;
-    margin-top: 70px;
-    align-items: right;
-    justify-content: space-between;
+.links{
+    display: flex;
 }
 
-.inicio .barraLogo .links a{
+.links a{
     color: #1a1a1a;
     display: flex;
-    align-items: right;
+    text-decoration: underline;
+    justify-content: space-between;
+    margin: auto;
+    font-size: 18px;
 
 }
 
