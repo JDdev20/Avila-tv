@@ -1,9 +1,11 @@
+
 *{
     margin: 0;
     padding: 0;
 }
 
 body{
+    font-family: url(../assets/fonts/Montserrat-VariableFont_wght.ttf);
     min-height: 100vh;
     background-color: #283046;
     display: flex;
@@ -68,3 +70,19 @@ body{
     border-radius: 15px;
     color: #1a1a1a;
 }
+
+.inicio .barraLogo .links{
+    text-decoration: none;
+    display: block;
+    margin-top: 70px;
+    align-items: right;
+    justify-content: space-between;
+}
+
+.inicio .barraLogo .links a{
+    color: #1a1a1a;
+    display: flex;
+    align-items: right;
+
+}
+
