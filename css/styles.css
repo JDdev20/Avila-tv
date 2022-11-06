@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-body{
+.body{
     font-family: url(../assets/fonts/Montserrat-VariableFont_wght.ttf);
     min-height: 100vh;
     background-color: #283046;
