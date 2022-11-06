@@ -5,11 +5,12 @@
 
 
 
-.main-flex {
-  display: grid;
-  background-color: #ffd770;
+.main {
+    display: grid;
+    background-color: #ffd770;
+    grid-template-columns: min-content 1fr;
 }
-
+    
 ul {
   list-style: none;
   padding-left: 0;
@@ -20,6 +21,8 @@ ul {
   width: 170px;
   background-color: #283046;
   border-radius: 0 20px 20px 0;
+
+
 }
 .navContainer {
   position: relative;
@@ -49,4 +52,23 @@ ul {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.content{
+    background-color: #ffd770;
+    position: relative;
+}
+.card{
+    position: absolute;    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input{
+    background-color: #212121;
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+
 }

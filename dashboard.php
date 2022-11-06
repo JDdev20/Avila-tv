@@ -1,7 +1,9 @@
 <!--Incluyebdo el HEADER-->
-<?php include('../includes/header.php'); ?>
+<?php include('./includes/header.php'); ?>
 
-<main class="main-flex">
+<main class="main">
+
+  <!-- Sidebar -->
   <div class="sidebar">
     <div class="navContainer">
       <nav class="menu">
@@ -59,7 +61,36 @@
       </nav>
     </div>
   </div>
-
+  <!-- Content -->
+  <div class="content">
+    <div class="card">
+      <div class="card-header">
+        <div class="item-card">
+          <img src="./assets/logos/user-solid.svg" class="item item-primary" alt="">
+        </div>
+      </div>
+      <form action="">
+        <div>
+          <input type="text" value="Nombre" placeholder="Ingrese su nombre">
+        </div>
+        <div>
+          <input type="text" value="Nombre" placeholder="Ingrese su nombre">
+        </div>
+        <div>
+          <input type="text" value="Nombre" placeholder="Ingrese su nombre">
+        </div>
+        <div>
+          <input type="text" value="Nombre" placeholder="Ingrese su nombre">
+        </div>
+        <div>
+          <input type="text" value="Nombre" placeholder="Ingrese su nombre">
+        </div>
+        <div>
+          <input type="text" value="Nombre" placeholder="Ingrese su nombre">
+        </div>
+      </form>
+    </div>
+  </div>
 </main>
 <!--Incluyebdo el FOOTER-->
-<?php include('../includes/footer.php'); ?>
+<?php include('./includes/footer.php'); ?>
