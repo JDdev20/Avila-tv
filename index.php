@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Avila-tv</title>
+    <title>Avila-TV</title>
 
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/dash.css">
@@ -13,11 +13,10 @@
 <body>
     
     <div class="inicio">
-        <a href="./view/dashboard.php">aqui</a>
-        <h1>Welcome</h1>
-        
-
+        <div class="barraLogo">
+            <img src="assets/logos/Logo-avilatv.png" id="avilaLogo"" alt="">
+            <input type="number" name="cedula" placeholder="Ingrese su identificación..." id="inputCedula">
+        </div>
     </div>
-    
 </body>
 </html>
