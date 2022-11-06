@@ -1,5 +1,5 @@
 <!--Incluyebdo el HEADER-->
-<?php include('includes/header.php'); ?>
+<?php include('../includes/header.php'); ?>
 
 <main class="main-flex">
   <div class="sidebar">
@@ -62,4 +62,4 @@
 
 </main>
 <!--Incluyebdo el FOOTER-->
-<?php include('includes/footer.php'); ?>
+<?php include('../includes/footer.php'); ?>
