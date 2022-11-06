@@ -22,7 +22,7 @@ body{
 }
 
 .inicio{
-    display: flex;
+    display: grid;
     margin: auto;
     align-items: center;
     text-align: center;
@@ -54,7 +54,7 @@ body{
     align-self: center;
     justify-content: center;
     align-items: center;
-    width: 150px;
+    width: 200px;
     margin: auto;
     margin-bottom: 15px;
 }
@@ -71,18 +71,4 @@ body{
     color: #1a1a1a;
 }
 
-.inicio .barraLogo .links{
-    text-decoration: none;
-    display: block;
-    margin-top: 70px;
-    align-items: right;
-    justify-content: space-between;
-}
-
-.inicio .barraLogo .links a{
-    color: #1a1a1a;
-    display: flex;
-    align-items: right;
-
-}
 
