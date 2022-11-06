@@ -4,7 +4,10 @@
     padding: 0;
 }
 
-body{
+
+
+.body{
+
     font-family: url(../assets/fonts/Montserrat-VariableFont_wght.ttf);
     min-height: 100vh;
     background-color: #283046;
@@ -23,6 +26,7 @@ body{
 
 .inicio{
     display: grid;
+    display: flex;
     margin: auto;
     align-items: center;
     text-align: center;
@@ -54,7 +58,11 @@ body{
     align-self: center;
     justify-content: center;
     align-items: center;
+
     width: 200px;
+
+    width: 150px;
+
     margin: auto;
     margin-bottom: 15px;
 }
@@ -71,4 +79,19 @@ body{
     color: #1a1a1a;
 }
 
+
+.inicio .barraLogo .links{
+    text-decoration: none;
+    display: block;
+    margin-top: 70px;
+    align-items: right;
+    justify-content: space-between;
+}
+
+.inicio .barraLogo .links a{
+    color: #1a1a1a;
+    display: flex;
+    align-items: right;
+
+}
 
