@@ -1,4 +1,6 @@
-
+:root{
+    --fuente: (Montserrat-VariableFont_wght);
+}
 *{
     margin: 0;
     padding: 0;
@@ -7,8 +9,8 @@
 
 
 .body{
-
-    font-family: url(../assets/fonts/Montserrat-VariableFont_wght.ttf);
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     min-height: 100vh;
     background-color: #283046;
     display: flex;
@@ -34,10 +36,10 @@
     width: 575px;
     height: 375px;
     border-radius: 15px;
-    backdrop-filter: blur(5px);
     background: rgba( 255, 255, 255, 0.25 );
     box-shadow: 0 8px 32px 0 rgba(124, 124, 129, 0.37);
-    -webkit-backdrop-filter: blur( 4px );
+    --webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
     border: 1px solid rgba(151, 141, 141, 0.18);
 }
 
@@ -67,6 +69,7 @@
     display: flex;
     margin: auto;
     padding-left: 10px;
+    font-size: 17px;
     height: 40px;
     width: 450px;
     border: 0;
@@ -90,3 +93,6 @@
 
 }
 
+.img-container{
+    background-image: url(../assets/images/pexels-arturo-añez-13631236.jpg);
+}
