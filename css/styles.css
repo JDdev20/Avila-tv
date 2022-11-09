@@ -18,7 +18,7 @@
     align-items: center;
     position: relative;
     /* background-image: url(../assets/images/pexels-frank-araujo-12693427.jpg); */
-    background-image: url(../assets/images/pexels-arturo-añez-13631236.jpg);
+    background-image: url(../assets/images/junquito.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -45,7 +45,7 @@
 
 .barraLogo{
     width: 100%;
-    max-width: 600px;
+    max-width: 1200px;
     z-index: 1;
     display: grid;
     justify-content: center;
@@ -95,4 +95,32 @@
 
 .img-container{
     background-image: url(../assets/images/pexels-arturo-añez-13631236.jpg);
+}
+
+/* Visitantes */
+
+.grupo_inputs .input input{
+    display: flex;
+    margin: auto;
+    padding-left: 10px;
+    font-size: 17px;
+    height: 40px;
+    width: 450px;
+    border: 0;
+    background-color: rgb(212, 210, 189);
+    border-radius: 15px;
+    color: #1a1a1a;
+    outline: unset;
+}
+.input label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.input .enviar{
+    text-align: center;
+    margin-top: 15px;
 }
