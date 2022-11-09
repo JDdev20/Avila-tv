@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    background-color: #283046;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.inicio{
+    display: inline-block;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding: 25px;
+    width: 575px;
+    height: 375px;
+    border-radius: 15px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba(124, 124, 129, 0.37);
+    max-width: 1200px;
+}
+
+.imagen-formulario{
+    display: inline-block;
+    background-image: url(../assets/images/pexels-arturo-añez-13631236.jpg);
+    background-repeat: no-repeat;
+    height: 375px;
+    width: 300px;
+    justify-content: center;
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.formulario{
+    display: inline-block;
+    background-color: #292e3a;
+    height: 375px;
+}
