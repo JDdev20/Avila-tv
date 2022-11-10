@@ -1,12 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Avila-tv</title>
-</head>
-<body>
+
+
+<!--Incluyebdo el HEADER-->
+<?php include('includes/header.php'); ?>
+<div class="body">
+    <div class="inicio">
+        <div class="barraLogo">
+            <img src="assets/logos/Logo-avilatv.png" id="avilaLogo"" alt="">
+            <input type="number" name="cedula" placeholder="Ingrese su identificación..." id="inputCedula">
+        </div>
+        <div class="links">
+            <a href="visitantes.php">Visitante</a>
+            <a href="login.php">Iniciar sesión</a>
+
+        </div>
+    </div>
+</div>
     
-</body>
-</html>
+    <!--Incluyedo el FOOTER-->
+<?php include('includes/footer.php'); ?>
+
